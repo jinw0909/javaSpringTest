@@ -15,7 +15,7 @@ public class Test01Controller {
 	@ResponseBody
 	public String printString() {
 		
-		return "테스트 프로젝트 완성 \n 해당 프로젝트를 통해서 문제풀이를 진행합니다.";
+		return "<h1>테스트 프로젝트 완성</h1><br>해당 프로젝트를 통해서 문제풀이를 진행합니다.";
 	}
 	
 	@RequestMapping("/2")
